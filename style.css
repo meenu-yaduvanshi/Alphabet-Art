@@ -116,7 +116,7 @@ nav div p{
 /* Alphabet Cards */
 .container{
     display: grid;
-    gap: 25px;
+    gap: 15px;
     width: 85%;
     margin: auto;
     justify-content: space-around;
@@ -267,7 +267,7 @@ footer{
 }
 
 .social-media, .links{
-    width: 80%;
+    width: 88%;
     margin: auto;
     margin-top: 25px;
 }
@@ -299,6 +299,7 @@ footer{
 .links ul li{
     margin-bottom: 15px;
 }
+
 
 
 /* Media query to change grid count and text size for different screen sizes */
@@ -389,7 +390,7 @@ footer{
    @media (min-width:1281px) {
     .container{
       grid-template-columns: repeat(3, minmax(400px, 1fr));
-      gap: 50px;
+      gap: 20px;
     }
     .backCard p{
       font-size: 16em;
