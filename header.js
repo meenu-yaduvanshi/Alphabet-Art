@@ -1,9 +1,5 @@
 let nav = 
-`<!-- <Logo/> -->
-<div class="logo">
-    <img src="https://placehold.co/250x100/red/white?text=Logo" alt="Logo">
-</div>
-<!-- <NavigationMenu/> -->
+`<!-- <NavigationMenu/> -->
 <nav>
     <div>
         <a href="/Alphabet-Art/stickers/index.html"><img src="../assets/navImages/sticker.png" alt="Stickers"></a>
