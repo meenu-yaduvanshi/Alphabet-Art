@@ -7,6 +7,9 @@ body{
   background-image: none;
 }
 
+H3{
+  margin-left: 80px;
+}
 /* Logo */
 .logo img {
   display: block;
@@ -67,6 +70,15 @@ nav div p {
   border-radius: 10%;
   max-height: 200px;
 }
+
+.data{
+  padding: 5px;
+  width: 80%;
+  margin: auto;
+  color: #8C97A4;
+  font-family: Roboto;
+  font-weight: 400;
+} 
 
 /*-----------------------form*/
 hr {

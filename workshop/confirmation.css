@@ -3,213 +3,216 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 
 body {
-    margin: 0;
-    background-image: none;
-  }
-  
-  /* Logo */
-  .logo img {
-    display: block;
-    margin: 10px auto;
-    cursor: pointer;
-  }
-  
-  /* Navigation Menu */
-  nav {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #1375E4;
-    font-family: 'Mochiy Pop One';
-    font-weight: 400;
-    font-size: 1em;
-    color: #FFFFFF;
-  }
-  
-  nav div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 5px;
-    cursor: pointer;
-    /* margin: 5px auto; */
-  }
-  
-  nav div:hover{
-    background: #004CA1
-  }
-  nav div img {
-    border-radius: 50%;
-  }
-  
-  nav div p {
-    margin: 0;
-  }
+  margin: 0;
+  background-image: none;
+}
+
+/* Logo */
+.logo img {
+  display: block;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+/* Navigation Menu */
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #1375E4;
+  font-family: 'Mochiy Pop One';
+  font-weight: 400;
+  font-size: 1em;
+  color: #FFFFFF;
+}
+
+nav div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+  /* margin: 5px auto; */
+}
+
+nav div:hover {
+  background: #004CA1
+}
+
+nav div img {
+  border-radius: 50%;
+}
+
+nav div p {
+  margin: 0;
+}
 
 .container {
-    width: 90%;
-    margin: auto;
+  width: 90%;
+  margin: auto;
 }
 
 /* Page Info */
 
 .page-info {
-    padding: 10px;
-    margin: auto;
-    color: #8C97A4;
-    font-family: Roboto;
-    font-weight: 400;
+  padding: 10px;
+  margin: auto;
+  color: #8C97A4;
+  font-family: Roboto;
+  font-weight: 400;
 }
 
 /* workshop image */
 .workshop-image img {
-    border-radius: 10px;
-    width: 100%;
+  border-radius: 10px;
+  width: 100%;
 }
 
 /* payment Confirmation heading */
 .container h1 {
-    margin: auto;
-    margin-top: 15px;
-    font-size: 24px;
-    line-height: 40px;
-    font-weight: 400;
-    color: #1375E4;
-    font-family: 'Mochiy Pop One';
+  margin: auto;
+  margin-top: 15px;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #1375E4;
+  font-family: 'Mochiy Pop One';
 }
 
 .container p {
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0.0025em;
-    text-align: left;
-    color: #8C97A4;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.0025em;
+  text-align: left;
+  color: #8C97A4;
 
 }
 
 /* Table */
 #table-div {
-    margin-top: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
+  width: 100%;
+  border-collapse: collapse;
 }
 
 
 th {
-    background: #1375E4;
-    color: white;
-    font-family: "Roboto";
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    font-size: 18px;
-    padding: 10px 0px 10px 0px;
+  background: #1375E4;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  font-size: 18px;
+  padding: 10px 0px 10px 0px;
 }
 
 td {
-    text-align: center;
-    font-family: "Roboto";
-    font-weight: 400;
-    font-size: 16px;
-    color: #1375E4;
-    border-bottom: 1px solid #D9EBFF;
-    padding: 20px 0px 20px 0px;
-    background-color: #D9EBFF;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: #1375E4;
+  border-bottom: 1px solid #D9EBFF;
+  padding: 20px 0px 20px 0px;
+  background-color: #D9EBFF;
 }
 
-.home{
+.home {
   margin-top: 20px;
 }
 
-.home a{
-    font-family: Mochiy Pop One;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0.004em;
-    text-align: center;
-    color:  #367DCA;
-    text-decoration: none;
+.home a {
+  font-family: Mochiy Pop One;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.004em;
+  text-align: center;
+  color: #367DCA;
+  text-decoration: none;
 }
 
 
 
-  /* Footer */
-  footer #tag {
-    text-align: center;
-    margin-top: 100px;
-    font-family: 'Mochiy Pop One';
-    font-size: 16px;
-    color: #1375E4;
-    /* border: 1px solid red; */
-  }
-  footer a { 
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  footer a:hover {
-    text-decoration: underline;
-  }
-  #footer-links {
-    background-color: #1375E4;
-    color: white;
-    font-size: 20px;
-    font-family: Roboto;
-    margin-top: 10px;
-    position: absolute;
-    width: 100%;
-  }
-  
-  .social-media{
-    width: 80%;
-    margin: auto;
-    margin-top: 25px;
-  }
-  
-  .links{
-    width: 80%;
-    margin: auto;
-    margin-top: 25px;
-  }
-  
-  .social-media ul {
-    list-style: none;
-    padding-left: 0;
-    display: flex;
-    margin-top: 10px;
-  }
-  
-  .social-media ul li {
-    margin-right: 5px;
-  }
-  
-  .social-media ul li img {
-    border-radius: 20%;
-  }
-  
-  .links ul {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  .links ul li {
-    margin-bottom: 15px;
-  }
-  
-  .links ul li:hover {
-    cursor: pointer;
-    text-decoration: underline;
-    opacity: 0.9;
-  }
-  
-  .social-media img:hover{
-    cursor: pointer;
-    opacity: 0.9;
-  }
+/* Footer */
+footer #tag {
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Mochiy Pop One';
+  font-size: 16px;
+  color: #1375E4;
+  /* border: 1px solid red; */
+}
+
+footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#footer-links {
+  background-color: #1375E4;
+  color: white;
+  font-size: 20px;
+  font-family: Roboto;
+  margin-top: 10px;
+  position: absolute;
+  width: 100%;
+}
+
+.social-media {
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.links {
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.social-media ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  margin-top: 10px;
+}
+
+.social-media ul li {
+  margin-right: 5px;
+}
+
+.social-media ul li img {
+  border-radius: 20%;
+}
+
+.links ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.links ul li {
+  margin-bottom: 15px;
+}
+
+.links ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+.social-media img:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
